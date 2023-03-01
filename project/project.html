@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id card generator</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <center>
+        <div class="form" id="frm">
+            <form>
+            <h1>Fill form</h1>
+            <br>
+            <input type="text" placeholder="Enter Name"id="nm"><br>
+            <input type="text" placeholder="Enter image url" id="img url"><br>
+            <input type="text" placeholder="Enter Father's name"id="fn"><br>
+            <input type="date" formnovalidate="dd/mm/yyyy" placeholder="Date of birth" id="dob"><br>
+            <input type="text" placeholder="Enter address" id="add"><br>
+            <input type="number" placeholder="Enter phone number" id="phn no"><br>
+            <input type="number" placeholder="Enter Roll number" id="rl"><br>
+            <input type="text" placeholder="Enter branch" id="bn">
+            <input type="number" placeholder="Enter session" id="ssn"></form>
+            <button onclick="show()">Submit</button>
+         </div>
+         <div class="output" id="opt">
+         <h1>ID CARD</h1>
+         <table>
+            <td>
+                <label class="GC">Name:-</label>
+                <label id="sn"></label><br>
+                <label class="GC">Father's name:-</label>
+                <label id="sf"></label><br>
+                <label class="Gc">DOB:-</label>
+                <label id="sdb"></label><br>
+                <label class="GC">Address:-</label>
+                <label id="sa"></label><br>
+                <label class="GC">Phone number:-</label>
+                <label id="sno"></label><br>
+                <label class="GC">Roll number:-</label>
+                <label id="sr"></label><br>
+                <label class="GC">Branch:-</label>
+                <label id="sb"></label><br>
+                <label class="GC">session:-</label>
+                <label id="ss"></label><br>
+
+
+
+            <td>
+                <img src="" id="image"alt="img">
+         </table>
+         </div>
+         <script src="project.js"></script>
+    </center>
+
+    
+</body>
+</html>
